@@ -1794,6 +1794,11 @@ RectTransform:
   m_AnchoredPosition: {x: 114.5, y: 0}
   m_SizeDelta: {x: 101, y: 56}
   m_Pivot: {x: 0.5, y: 0.5}
+--- !u!224 &682567814 stripped
+RectTransform:
+  m_CorrespondingSourceObject: {fileID: 2070949433506921120, guid: 99af53e721b1101419a7b3965aba590b, type: 3}
+  m_PrefabInstance: {fileID: 1244001255}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &701214032
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1997,6 +2002,11 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 717093038}
   m_CullTransparentMesh: 1
+--- !u!224 &731092539 stripped
+RectTransform:
+  m_CorrespondingSourceObject: {fileID: 2070949433506921120, guid: 99af53e721b1101419a7b3965aba590b, type: 3}
+  m_PrefabInstance: {fileID: 733296754}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &733296754
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2358,6 +2368,11 @@ RectTransform:
   m_CorrespondingSourceObject: {fileID: 1066604683847125969, guid: 0945a9cf38a0cb645ae7546c8e7cd3c6, type: 3}
   m_PrefabInstance: {fileID: 998565981}
   m_PrefabAsset: {fileID: 0}
+--- !u!224 &1001029272 stripped
+RectTransform:
+  m_CorrespondingSourceObject: {fileID: 2070949433506921120, guid: 99af53e721b1101419a7b3965aba590b, type: 3}
+  m_PrefabInstance: {fileID: 230680069}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1007070990
 GameObject:
   m_ObjectHideFlags: 0
@@ -2612,6 +2627,11 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1108642196}
   m_CullTransparentMesh: 1
+--- !u!224 &1126501146 stripped
+RectTransform:
+  m_CorrespondingSourceObject: {fileID: 2070949433506921120, guid: 99af53e721b1101419a7b3965aba590b, type: 3}
+  m_PrefabInstance: {fileID: 320401064077977983}
+  m_PrefabAsset: {fileID: 0}
 --- !u!224 &1148862166 stripped
 RectTransform:
   m_CorrespondingSourceObject: {fileID: 7645454722813320509, guid: 99af53e721b1101419a7b3965aba590b, type: 3}
@@ -3083,7 +3103,7 @@ MonoBehaviour:
   m_HandleRect: {fileID: 1497922768}
   m_Direction: 2
   m_Value: 1
-  m_Size: 0.44686237
+  m_Size: 0.79192823
   m_NumberOfSteps: 0
   m_OnValueChanged:
     m_PersistentCalls:
@@ -4539,6 +4559,11 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1707977046}
   m_CullTransparentMesh: 1
+--- !u!224 &1727754993 stripped
+RectTransform:
+  m_CorrespondingSourceObject: {fileID: 2070949433506921120, guid: 99af53e721b1101419a7b3965aba590b, type: 3}
+  m_PrefabInstance: {fileID: 701214032}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1772479253
 GameObject:
   m_ObjectHideFlags: 0
@@ -5019,12 +5044,19 @@ MonoBehaviour:
   - {fileID: 317671487}
   - {fileID: 945608441}
   - {fileID: 1698996180}
+  resourcesIMG:
+  - {fileID: 1126501146}
+  - {fileID: 731092539}
+  - {fileID: 1727754993}
+  - {fileID: 682567814}
+  - {fileID: 1001029272}
   _currentQuantity: 0
   _maxQuantity: 0
   _storageQuantity: {fileID: 525101886}
   _quantityImage: {fileID: 380405571}
   _balanceTMP: {fileID: 967133495}
   _quantityTransform: {fileID: 1793518773}
+  _upgradeButton: {fileID: 92135988}
 --- !u!4 &1958888936
 Transform:
   m_ObjectHideFlags: 0
